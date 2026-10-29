@@ -389,8 +389,5 @@ internet gateway y NAT.
 | `apt update` no avanza en `iot-db` | El NAT gateway no está creado o la subred privada no tiene ruta hacia él. |
 | `curl` responde *Connection reset* justo después de levantar | Flask todavía está arrancando; esperar unos segundos. |
 
-### Costos y limpieza
 
-El **NAT gateway** y las **Elastic IP** cobran por hora aunque no se usen. Al terminar:
-terminar las dos EC2 → eliminar el NAT gateway → liberar las Elastic IP → eliminar la VPC.
 
